@@ -1,0 +1,235 @@
+header{
+    text-align:center;
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+h1{ 
+    color:rgb(27, 95, 196);
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    font-size: 50px;
+    margin-right: 400px;
+    width:450px;
+}
+body{
+    background-color: rgb(206, 224, 211);
+}  
+
+
+
+.container1{
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    margin-right:150px;
+    margin-left: 150px;
+}
+@media (max-width: 768px) {
+  .container1{
+    grid-template-columns: 1fr; 
+  }
+}
+
+.container2{
+    margin-top: 50px;
+    margin-right:150px;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.second{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    padding-bottom: 25px;
+    margin-top: 40px;
+    background-color: bisque;
+}   
+
+@media (max-width: 768px) {
+  .second{
+    grid-template-columns: 1fr; 
+    margin-right: 50px;
+  }
+}
+.photo3{
+    margin-left: 150px;
+}
+
+img{    
+    border-radius:15px;
+    height:580px;
+    width:540px;
+
+}
+.fisrt{
+    margin-right: 20px;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;  
+    margin-left: 150px; 
+}
+@media (max-width: 768px) {
+  .hero{
+    grid-template-columns: 1fr; 
+  }
+}
+
+
+.click{
+    background: rgb(27, 95, 196);
+    color:rgb(216, 216, 216);
+    font-size: 18px ;
+    border: none;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.click:hover {
+    animation: click 0.5s ease;
+}
+
+
+@keyframes click {
+    0% {
+        transform: scale(1);
+        background-color: rgb(27, 95, 196);
+    }
+    50% {
+        transform: scale(1.1);
+        background-color:black;
+    }
+    100% {
+        transform:scale(1);
+        background-color:rgb(27, 95, 196);
+    }
+}
+footer{
+    margin-top: 70px;
+}
+.card1{
+    width: 300px;
+    height: 250px;
+    background-color:rgb(134, 197, 242);  
+    border-radius: 15px;    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 15px 40px rgba(17, 31, 120, 0.2);
+}
+.card2{
+    width: 300px;
+    height: 250px;  
+    background-color:rgb(134, 197, 242);
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 15px 40px rgba(17, 31, 120, 0.2);;
+}
+
+.card3{
+    width: 300px;
+    height: 250px;
+    background-color:rgb(134, 197, 242);
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 15px 40px rgba(17, 31, 120, 0.2);
+}
+.cardbutton{    
+    background-color:rgb(27, 95, 196);
+    border-radius: 100px;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    border-radius:100px;    
+}
+
+.cardbutton:hover {
+    animation: click 0.5s ease;
+}
+
+
+@keyframes cardbutton {
+    0% {
+        transform: scale(1);
+        background-color: rgb(27, 95, 196);
+    }
+    50% {
+        transform: scale(1.1);
+        background-color:black;
+    }
+    100% {
+        transform:scale(1);
+        background-color:rgb(27, 95, 196);
+    }
+}   
+
+html {
+  scroll-behavior: smooth;
+}
+.third{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+}
+
+footer{
+    text-align: center;
+}
+.pum{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: bisque;
+    text-align: center;
+}
+@media (max-width: 768px){
+    .pum{
+    grid-template-columns: 1fr;
+    }
+}
+.navigation{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2{
+    color:rgb(27, 95, 196);
+}
+.whale {
+width: 400px;
+height: 600px;
+}
+.whale2{
+    width: 500px;
+    height: 300px;
+}
+b{
+    color:rgb(27, 95, 196);
+    font-size: 18px;
+}
+a{
+    color:rgb(19, 19, 19);
+    text-decoration: none;
+}
+hr{
+    margin-top: 80px;
+    color: rgb(27, 95, 196);
+    width: 1200px;
+}
